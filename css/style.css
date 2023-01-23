@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(212, 226, 226);
+  font-family: "Roboto", sans-serif;
+}
+
+.qr-code-box,
+.qr-code-img {
+  border-radius: 1.5rem;
+}
+
+.qr-code-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 46rem;
+  width: 30rem;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+.qr-code-box .qr-code-img {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  height: 26rem;
+  width: 26rem;
+}
+.qr-code-box .qr-code-title {
+  margin: 0 1.6rem;
+  font-size: 1.8rem;
+  color: rgba(6, 40, 71, 0.911);
+  font-weight: 900;
+}
+.qr-code-box .qr-code-text {
+  margin-top: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.4rem;
+  color: rgba(68, 66, 66, 0.514);
+  font-weight: 500;
+}
+
+@media (max-width: 340px) {
+  .qr-code-box {
+    width: 20rem;
+    height: 42rem;
+  }
+  .qr-code-box .qr-code-img {
+    width: 16rem;
+    height: 16rem;
+  }
+}
+@media (min-width: 340px) {
+  .qr-code-box {
+    width: 28rem;
+    height: 44rem;
+  }
+  .qr-code-box .qr-code-img {
+    width: 24rem;
+    height: 24rem;
+  }
+}
+@media (min-width: 568px) {
+  .qr-code-box {
+    width: 30rem;
+    height: 46rem;
+  }
+  .qr-code-box .qr-code-img {
+    width: 26rem;
+    height: 26rem;
+  }
+}/*# sourceMappingURL=style.css.map */
